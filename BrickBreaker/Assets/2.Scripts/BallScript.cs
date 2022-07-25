@@ -33,22 +33,12 @@ public class BallScript : MonoBehaviour
         }
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         // if game not started - the ball will move with player
         if (GameManager.instance.TheGameState != GameManager.GameState.GameStarted)
         {
             transform.position = _playerTranform.position;
-        }
-        else 
-        {
-            //BallHitPaddle();
-            /*
-            var posBall = this.transform.position;
-            var posPlayer = _playerTranform.transform.parent.position;
-            var dir = (posPlayer - posBall).normalized;
-            Debug.Log("Dir: " + dir);
-            */
         }
     }
 
@@ -76,68 +66,6 @@ public class BallScript : MonoBehaviour
                 return;
 
             _sfx.PlaySFX(_audioClips[0]);
-
-            /*float dist = this.transform.position.x - collision.transform.position.x;
-            //float d2 = this.transform.position.x - collision.transform.position.x;
-
-            Vector2 dir = new Vector2(dist, 1).normalized;
-
-            print("Dist: " + dist + "\nDir: " + dir);
-
-            if (dist > 0)
-            {
-                _rb.velocity = Vector2.zero;
-                if (dir.x < 0 && dir.y < 0.9)
-                {
-                    _rb.AddForce(new Vector2(-dist, 1).normalized * _speed);     // add the force to move the ball
-
-                }
-                else
-                {
-                    _rb.AddForce(dir * _speed);     // add the force to move the ball
-
-                }
-            }
-            else if (dist < 0)
-            {
-                _rb.velocity = Vector2.zero;
-                if (dir.x < 0 && dir.y < 0.9)
-                {
-                    _rb.AddForce(new Vector2(-dist, 1).normalized * _speed);     // add the force to move the ball
-                }
-                else
-                {
-                    _rb.AddForce(dir * _speed);     // add the force to move the ball
-                }
-            }
-            */
-
-
-            /*if (dir.x > 0)
-            {
-                _rb.velocity = Vector2.zero;
-                if (dist < 0)
-                {
-                    _rb.AddForce(dir * _speed);     // add the force to move the ball
-                }
-                else if (dist > 0)
-                {
-                    _rb.AddForce(new Vector2(-dist, 1).normalized * _speed);     // add the force to move the ball
-                }
-            }
-            else if (dir.x < 0)
-            {
-                _rb.velocity = Vector2.zero;
-                if (dist < 0)
-                {
-                    _rb.AddForce(new Vector2(dist, 1).normalized * _speed);     // add the force to move the ball
-                }
-                else if (dist > 0)
-                {
-                    _rb.AddForce(dir * _speed);     // add the force to move the ball
-                }
-            }
-            */
         }
     }
 

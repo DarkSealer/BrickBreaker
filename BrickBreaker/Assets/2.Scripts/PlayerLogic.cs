@@ -31,7 +31,8 @@ public class PlayerLogic : MonoBehaviour
         }
 
         // getting the keyboard input (because the movement looks more natural)
-        float _horizontalMove = Input.GetAxis("Horizontal"); // for test - TODO: Delete this line
+        // for test - TODO: Delete this line
+        //float _horizontalMove = Input.GetAxis("Horizontal"); 
 
         // move the player
         transform.Translate(Vector2.right * _horizontalMove * _speed * Time.deltaTime);

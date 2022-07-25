@@ -107,11 +107,11 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"B:/Unity/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"B:/Unity/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"B:/Unity/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"B:/Unity/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"B:/Unity/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.Unsafe.dll"
+-r:"B:/Unity/BrickBreaker_git/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"B:/Unity/BrickBreaker_git/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"B:/Unity/BrickBreaker_git/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"B:/Unity/BrickBreaker_git/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"B:/Unity/BrickBreaker_git/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.Unsafe.dll"
 -r:"D:/Unity/2021.2.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"D:/Unity/2021.2.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"D:/Unity/2021.2.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -313,7 +313,8 @@
 "Assets/2.Scripts/Control/PlayerControl.cs"
 "Assets/2.Scripts/GameManager.cs"
 "Assets/2.Scripts/LevelManager.cs"
-"Assets/2.Scripts/PlayerMovement.cs"
+"Assets/2.Scripts/PlayerLogic.cs"
+"Assets/2.Scripts/PowerUps.cs"
 "Assets/2.Scripts/SfxAutoDestroy.cs"
 "Assets/2.Scripts/SoundFX.cs"
 "Assets/2.Scripts/UI/FinalScreen.cs"

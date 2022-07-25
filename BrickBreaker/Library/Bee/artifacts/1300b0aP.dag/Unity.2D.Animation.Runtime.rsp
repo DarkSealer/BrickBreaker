@@ -108,11 +108,11 @@
 -define:ENABLE_ANIMATION_BURST
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"B:/Unity/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"B:/Unity/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"B:/Unity/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"B:/Unity/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"B:/Unity/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.Unsafe.dll"
+-r:"B:/Unity/BrickBreaker_git/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"B:/Unity/BrickBreaker_git/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"B:/Unity/BrickBreaker_git/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"B:/Unity/BrickBreaker_git/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"B:/Unity/BrickBreaker_git/BrickBreaker/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.Unsafe.dll"
 -r:"D:/Unity/2021.2.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"D:/Unity/2021.2.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"D:/Unity/2021.2.11f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
